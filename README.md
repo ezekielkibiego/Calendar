@@ -24,4 +24,4 @@ Use the .forEach() method to iterate over the events array and console.log the t
 
 **Bonus:** Implement functionality to delete events from the array using the .splice() method.
 
-**Bonus:** Use the .reduce() method to find the event with the most attendees.
+**Bonus:** Use the .reduce() method to find the event with the most attendees.# Calendar
