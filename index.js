@@ -1,7 +1,23 @@
-const currentDate = new Date();
+let button = document.querySelector("#myButton");
+let messageDisplay = document.querySelector("#messageDisplay");
 
-const nextSevenDays = new Date(currentDate.getTime() + 7 * 24 * 60 * 60* 1000 );
+button.addEventListener("click", function() {
+    messageDisplay.textContent = "Button clicked"
 
-const upcomingEvents = 
+    setTimeout(function() {
+        messageDisplay.textContent = "";
 
-console.log(nextSevenDays)
+    }, 1000) 
+});
+
+const box = document.querySelector('.box');
+box.addEventListener("mouseover", function() {
+    box.textContent = 'Mouse over';
+});
+
+box.addEventListener('mouseout', function() {
+    box.textContent = 'Hover over me';
+
+});
+
+

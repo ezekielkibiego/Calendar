@@ -1,0 +1,13 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: red;
+    color: white;
+}
